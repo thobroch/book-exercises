@@ -2,13 +2,14 @@
 
 # Create a vector `names` that contains your name and the names of 2 people 
 # next to you. Print the vector.
+names <- c("Thomas", "Mike", "Jessica")
 
-
+names
 # Use the colon operator : to create a vector `n` of numbers from 10:49
-
+n <- 10:49
 
 # Use the `length()` function to get the number of elements in `n`
-
+length(n)
 
 # Add 1 to each element in `n` and print the result
 
