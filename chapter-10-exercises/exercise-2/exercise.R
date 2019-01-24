@@ -65,4 +65,4 @@ mean(salaries[salary_adjustments < 0 , "salary_2018"])
 ## how you generated the salaries?
 
 # Write a .csv file of your salary data to your working directory
-?
+I'm not sure how to go about doing this one.'
