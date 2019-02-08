@@ -24,7 +24,7 @@ mutate(avocados, Date = as.Date(Date))
 # `X4046` to `small_haas`
 # `X4225` to `large_haas`
 # `X4770` to `xlarge_haas`
-`colnames<-`(avocados, c("Date", "AveragePrice", "Total.Volume", "X4046" = "small_haas", "X4225" = "large_haas", "X4225" = "xlarge_haas" ))
+colnames<-`(avocados, c("Date", "AveragePrice", "Total.Volume", "X4046" = "small_haas", "X4225" = "large_haas", "X4225" = "xlarge_haas" ))
 
 # The data only has sales for haas avocados. Create a new column `other_avos`
 # that is the Total.Volume minus all haas avocados (small, large, xlarge)
